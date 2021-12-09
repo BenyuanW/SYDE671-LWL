@@ -16,7 +16,7 @@ Additionally, we also used the Point-Attention variant to improve the training e
 
 # Usage
 
-Replace the original "swin_transformer.py" in the authors' code with the files in the "ablation" and "self-attention variants" folders.
+Replace the original "swin_transformer.py" in the authors' code with the files in the "ablation" and "self-attention variants" folders to perform the ablation and improvement experiments.
 
 Replace the original "config.py" in the authors' code with the files in the "ablation" and "hyperparameter" folders to test the performance of the network with different hyperparameters. The other setups are the same as the official implementation of the Swin Transformer.
 
