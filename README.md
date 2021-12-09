@@ -2,6 +2,8 @@
 
 We used the official code (https://github.com/microsoft/Swin-Transformer) of the "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows", to reproduce the image classification of the three variants in the original paper and added hyperparameter comparison experiments, ablation experiments, and self-attention module improvement experiments.
 
+For image classification task, we tried swin-T, swin-B and swin-S to test our dataset, modified main.py and add a script to produce loss figures.
+
 Among them, the hyperparameter comparison experiment includes learning rate comparison and batch size comparison, mainly to modify the config.py provided by the original author. 
 
 For the ablation experiments, we remove the position embedding module, shifted window module, residual architecture, and dropout module, to testify the importance of each component.
@@ -18,7 +20,7 @@ Additionally, we also used the Point-Attention variant to improve the training e
 
 Replace the original "swin_transformer.py" in the authors' code with the files in the "ablation" and "self-attention variants" folders to perform the ablation and improvement experiments.
 
-Replace the original "config.py" in the authors' code with the files in the "ablation" and "hyperparameter" folders to test the performance of the network with different hyperparameters. The other setups are the same as the official implementation of the Swin Transformer.
+Replace the original "config.py" in the authors' code with the files in the "image classification","ablation" and "hyperparameter" folders to test the performance of the network with different hyperparameters. The other setups are the same as the official implementation of the Swin Transformer.
 
 You can learn more about our reproducibility work through our report.
 
