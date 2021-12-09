@@ -18,6 +18,8 @@ Additionally, we also used the Point-Attention variant to improve the training e
 
 Replace the original "swin_transformer.py" in the authors' code with the files in the "ablation" and "self-attention variants" folders. The other setups are the same as the official implementation of the Swin Transformer.
 
+You can learn more about our reproducibility work through our report.
+
 
 
 # Citing Swin Transformer
