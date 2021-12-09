@@ -1,6 +1,6 @@
 # Swin Transformer Reproducibility
 
-We used the code provided in the original paper Swin Transformer to reproduce the image classification of the three variants in the original paper and added hyperparameter comparison experiments, ablation experiments, and self-attention module improvement experiments.
+We used the official code (https://github.com/microsoft/Swin-Transformer) of the Swin Transformer to reproduce the image classification of the three variants in the original paper and added hyperparameter comparison experiments, ablation experiments, and self-attention module improvement experiments.
 
 Among them, the hyperparameter comparison experiment includes learning rate comparison and batch size comparison, mainly to modify the config.py provided by the original author. 
 
@@ -11,3 +11,9 @@ For the improvement of the self-attention module, we reproduce four self-attenti
 By replacing the original self-attention module with the Non-Local variant which is one of the four variants above, we have improved the classification performance of the Swin transformer.
 
 Additionally, we also used the Point-Attention variant to improve the training efficiency of the network, with similar accuracy.
+
+
+
+# Usage
+
+Replace the original "swin_transformer.py" in the authors' code with the files in the "ablation" and "self-attention variants" folders. The other operations are the same as the official implementation of the Swin Transformer.
