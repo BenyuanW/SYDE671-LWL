@@ -1,6 +1,6 @@
 # Swin Transformer Reproducibility
 
-We used the official code (https://github.com/microsoft/Swin-Transformer) of the Swin Transformer to reproduce the image classification of the three variants in the original paper and added hyperparameter comparison experiments, ablation experiments, and self-attention module improvement experiments.
+We used the official code (https://github.com/microsoft/Swin-Transformer) of the "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows", to reproduce the image classification of the three variants in the original paper and added hyperparameter comparison experiments, ablation experiments, and self-attention module improvement experiments.
 
 Among them, the hyperparameter comparison experiment includes learning rate comparison and batch size comparison, mainly to modify the config.py provided by the original author. 
 
